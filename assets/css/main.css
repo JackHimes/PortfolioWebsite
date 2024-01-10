@@ -3880,3 +3880,30 @@ input, select, textarea {
 		}
 
 	}
+
+	.csu-research {
+		display: flex;
+		justify-content: space-between;
+		img{
+			height: 170px;
+		}
+	}
+
+	.cu-research {
+		.large-image {
+			display: flex;
+			justify-content: center;
+			img{
+				height: 200px;
+			}
+			margin-bottom: 20px;
+		}
+		.side-by-side-images {
+			display: flex;
+			justify-content: space-between;
+		}
+		img {
+			height: 170px
+		}
+
+	}
